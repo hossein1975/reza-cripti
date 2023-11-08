@@ -2678,8 +2678,20 @@ input[type="range"]:active::-webkit-slider-thumb {
   fill: currentColor;
 }
 
+.fill-gray-500 {
+  fill: #6b7280;
+}
+
 .fill-white {
   fill: #fff;
+}
+
+.fill-gray-300 {
+  fill: #d1d5db;
+}
+
+.fill-gray-400 {
+  fill: #9ca3af;
 }
 
 .stroke-black {
