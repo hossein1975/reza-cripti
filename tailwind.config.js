@@ -18,7 +18,10 @@ module.exports = {
         
       },
       colors:{
-        cman:"#E3DEEA"
+        cman:"#E3DEEA",
+        cman2:"#f7f7f7",
+        cman3:"#e57665",
+        gray1:"#828282"
         
       }
       
