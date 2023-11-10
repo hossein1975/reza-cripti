@@ -23,6 +23,10 @@ module.exports = {
         cman3:"#e57665",
         gray1:"#828282"
         
+      },
+      spacing:{
+        "18":"4.5rem",
+        
       }
       
     },

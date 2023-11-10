@@ -1451,6 +1451,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   height: 100vh;
 }
 
+.h-18 {
+  height: 4.5rem;
+}
+
 .max-h-\[calc\(100\%-64px\)\] {
   max-height: calc(100% - 64px);
 }
@@ -1677,6 +1681,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-18 {
+  width: 4.5rem;
 }
 
 .min-w-0 {
@@ -2120,6 +2128,12 @@ input[type="range"]:active::-webkit-slider-thumb {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.25rem * var(--tw-space-x-reverse));
   margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2993,6 +3007,11 @@ input[type="range"]:active::-webkit-slider-thumb {
   padding-bottom: 5px;
 }
 
+.py-3\.5 {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -3199,6 +3218,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .text-\[34px\] {
   font-size: 34px;
+}
+
+.text-\[44px\] {
+  font-size: 44px;
 }
 
 .text-\[52px\] {
@@ -4065,6 +4088,11 @@ input[type="range"]:active::-webkit-slider-thumb {
   z-index: 2;
 }
 
+.hover\:-translate-x-1:hover {
+  --tw-translate-x: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:-translate-y-2:hover {
   --tw-translate-y: -0.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -4072,6 +4100,12 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .hover\:-translate-y-3:hover {
   --tw-translate-y: -0.75rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:scale-110:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -5560,6 +5594,10 @@ input[type="range"]:active::-webkit-slider-thumb {
     width: 95%;
   }
 
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
   .md\:rotate-45 {
     --tw-rotate: 45deg;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -5584,6 +5622,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 
   .md\:items-center {
     align-items: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:justify-around {
@@ -5707,6 +5749,10 @@ input[type="range"]:active::-webkit-slider-thumb {
     width: 33.333333%;
   }
 
+  .lg\:w-4\/5 {
+    width: 80%;
+  }
+
   .lg\:w-\[1000px\] {
     width: 1000px;
   }
@@ -5803,6 +5849,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 
   .xl\:w-\[28\%\] {
     width: 28%;
+  }
+
+  .xl\:w-4\/5 {
+    width: 80%;
   }
 
   .xl\:space-y-14 > :not([hidden]) ~ :not([hidden]) {
