@@ -1239,10 +1239,6 @@ input[type="range"]:active::-webkit-slider-thumb {
   margin-top: 0.15rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
