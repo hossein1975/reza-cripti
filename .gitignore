@@ -2,5 +2,7 @@ node_modules
 package-lock.json
 public/styles/app.css
 app.css
+.vscode
+
 
 
