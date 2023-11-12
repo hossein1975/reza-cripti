@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["public/**/*.{html,js}","./node_modules/tw-elements/dist/js/**/*.js"],
+  content: ["public/**/*.{html,js}","./node_modules/tw-elements/dist/js/**/*.js", "./node_modules/flowbite/**/*.js"],
+ 
  
   theme: {
     extend: {
@@ -37,7 +38,10 @@ module.exports = {
       addVariant('child-hover', '& > *:hover');
   },
 
-  require("tw-elements/dist/plugin.cjs")
+  require("tw-elements/dist/plugin.cjs"),
+  require('flowbite/plugin')
   ],
 }
+
+
 
