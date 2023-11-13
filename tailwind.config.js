@@ -22,7 +22,8 @@ module.exports = {
         cman:"#E3DEEA",
         cman2:"#f7f7f7",
         cman3:"#e57665",
-        gray1:"#828282"
+        gray1:"#828282",
+        whiteman:"#f7f7f7"
         
       },
       spacing:{
