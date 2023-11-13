@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["public/**/*.{html,js}","./node_modules/tw-elements/dist/js/**/*.js"],
+  content: ["public/**/*.{html,js}","./node_modules/tw-elements/dist/js/**/*.js", "./node_modules/flowbite/**/*.js"],
+ 
  
   theme: {
     extend: {
@@ -21,7 +22,8 @@ module.exports = {
         cman:"#E3DEEA",
         cman2:"#f7f7f7",
         cman3:"#e57665",
-        gray1:"#828282"
+        gray1:"#828282",
+        whiteman:"#f7f7f7"
         
       },
       spacing:{
@@ -37,7 +39,10 @@ module.exports = {
       addVariant('child-hover', '& > *:hover');
   },
 
-  require("tw-elements/dist/plugin.cjs")
+  require("tw-elements/dist/plugin.cjs"),
+  require('flowbite/plugin')
   ],
 }
+
+
 
