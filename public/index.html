@@ -6,6 +6,18 @@
     <title>CryptiBIT</title>
     <link rel="stylesheet" href="/public/styles/app.css" />
     <link rel="stylesheet" href="scripts/app.js">
+   
+
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+   
+
   </head>
   <body >
    
@@ -1827,7 +1839,8 @@
         <div >
         
         
-          <select id="underline_select" class="block  px-0 w-full   bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
+          <label for="underline_select" class="sr-only">Underline select</label>
+          <select id="underline_select" class="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
               <option selected>Choose a country</option>
               <option value="US">United States</option>
               <option value="CA">Canada</option>
@@ -1837,7 +1850,7 @@
           </div>
         <div >1</div>
         <div >
-          <select id="underline_select" class="block  px-0 w-full   bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
+          <select id="underline_select" class="block  w-full   bg-transparent  appearance-none ">
             <option selected>Choose a country</option>
             <option value="US">United States</option>
             <option value="CA">Canada</option>
@@ -1854,6 +1867,89 @@
 
 
   </div>
+</section>
+
+
+
+
+<!-- What our customers are saying about us -->
+
+
+<section class="w-5/6 mx-auto my-24">
+
+  <div class="w-full flex ">
+    <div class="md:w-1/4">
+      <div class="flex flex-col space-y-14">
+       <div>
+        <p class="font-WorkSansMedium text-gray-500 mb-3">Reviews</p>
+        <h1 class="font-WorkSansSemiBold text-4xl">What our customers are saying about us</h1>
+       </div>
+       
+      <div>
+        <span class="counter font-WorkSansMedium text-4xl">23000</span>
+        <h2 class="text-lg font-WorkSansSemiBold text-gray-500">Happy Customers</h2>
+      </div>
+    
+      </div>
+
+    </div>
+    <div class="md:w-3/4">
+
+
+      <div id="custom-controls-gallery" class="relative w-full" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+             <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="images/crypto-001-71.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="images/cb-logo1-black.png" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="images/cryptibit-desctop.png" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="images/Untitled-2.png" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="images/Untitled3.png" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+       
+       
+       
+        </div>
+        <div class="flex justify-center items-center pt-4">
+            <button type="button" class="flex justify-center items-center me-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+                <span class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
+                    <svg class="rtl:rotate-180 w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4"/>
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button" class="flex justify-center items-center h-full cursor-pointer group focus:outline-none" data-carousel-next>
+                <span class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
+                    <svg class="rtl:rotate-180 w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+      </div>
+      
+
+
+
+    </div>
+
+  
+
+
+
+  </div>
+
 </section>
 
 
@@ -1888,232 +1984,6 @@
 
 
 
-<nav class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 md:hidden">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-    </a>
-    <button data-collapse-toggle="navbar-hamburger" type="button" class="inline-flex items-center justify-center p-2 w-10 h-10 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-hamburger" aria-expanded="false">
-      <span class="sr-only">Open main menu</span>
-      <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-      </svg>
-    </button>
-    <div class="hidden w-full" id="navbar-hamburger">
- <!-- Mobile Menu -->
-  
- <div  class="md:hidden "  >
-  <div class="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
-   
-    <div class="grid max-w-xl mx-auto ">
-      
-      <div >
-        <details class="group child-hover:text-gray-500   ">
-          <summary class="flex justify-between items-center font-medium cursor-pointer list-none mb-3">
-            <span> <a href="#">Demos</a></span>
-            <span class="transition duration-300 group-open:rotate-90">
-              <svg class=" w-3 h-3"><use href="#chevron-right"></use></svg>
- 
-                </span>
-          </summary>
-         <div class="group">
-          <ul class="  flex-col space-y-2.5 pl-5 !text-black child-hover:text-gray-500  group-open:mb-3 " >
-            <li><a href="#">Main</a></li>
-            <li><a href="#">Blockchain Company</a></li>
-            <li><a href="#">App Landing Page</a></li>
-            <li><a href="#">Cryptoagency</a></li>
-            <li><a href="#">ICO & IEO onepage Landing</a></li>
-            <li><a href="#">Cryptocurrency</a></li>
-          </ul>
-         </div>
-        </details>
-      </div>
-      <div >
-        <details class="group child-hover:text-gray-500">
-          <summary class="flex justify-between items-center font-medium cursor-pointer list-none mb-3">
-            <span> <a href="#">pages</a></span>
-            <span class="transition duration-300 group-open:rotate-90">
-              <svg class=" w-3 h-3"><use href="#chevron-right"></use></svg>
- 
-                </span>
-          </summary>
-          <ul class="    flex-col space-y-2.5 pl-5 !text-black child-hover:text-gray-500 group-open:mb-3  " >
-        <div >
-          <li class="group">
-            <details class=" child-hover:text-gray-500   ">
-              <summary class="  flex justify-between items-center font-medium cursor-pointer list-none ">
-                <span> <a href="#">About</a></span>
-                <span class="transition duration-300 group-open:rotate-90  ">
-                  <svg class=" w-3 h-3"><use href="#chevron-right"></use></svg>
-     
-                    </span>
-              </summary>
-            
-              <ul class="  flex-col space-y-2.5 pl-5 !text-black child-hover:text-gray-500  group-open:mt-3 " >
-                <li><a href="#">About</a></li>
-                <li><a href="#">About Alt style</a></li>
-                <li><a href="#">About Classic</a></li>
-                
-              </ul>
-            
-            </details>
-          
-          
-          </li>
-        </div>
-            <li><a href="#">Team </a></li>
-            <li>  <details class="group child-hover:text-gray-500   ">
-              <summary class="flex justify-between items-center font-medium cursor-pointer list-none ">
-                <span> <a href="#">How it Works</a></span>
-                <span class="transition duration-300 group-open:rotate-90">
-                  <svg class=" w-3 h-3"><use href="#chevron-right"></use></svg>
-     
-                    </span>
-              </summary>
-             <div class="group">
-              <ul class="  flex-col space-y-2.5 pl-5 !text-black child-hover:text-gray-500  group-open:mt-3 " >
-                <li><a href="#">How it Works</a></li>
-                <li><a href="#">How it Works Alt</a></li>
-               
-              </ul>
-             </div>
-            </details></li>
-            <li><a href="#">Advisors</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Out Approach</a></li>
-            <li><a href="#">Partners</a></li>
-            <li>  <details class="group child-hover:text-gray-500   ">
-              <summary class="flex justify-between items-center font-medium cursor-pointer list-none ">
-                <span> <a href="#">FAQ</a></span>
-                <span class="transition duration-300 group-open:rotate-90">
-                  <svg class=" w-3 h-3"><use href="#chevron-right"></use></svg>
-     
-                    </span>
-              </summary>
-             <div class="group">
-              <ul class="  flex-col space-y-2.5 pl-5 !text-black child-hover:text-gray-500  group-open:mt-3 " >
-                <li><a href="#">FAQ Alt style</a></li>
-                <li><a href="#">FAQ</a></li>
-              
-              </ul>
-             </div>
-            </details></li>
-            <li>  <details class="group child-hover:text-gray-500   ">
-              <summary class="flex justify-between items-center font-medium cursor-pointer list-none ">
-                <span> <a href="#">Pricing</a></span>
-                <span class="transition duration-300 group-open:rotate-90">
-                  <svg class=" w-3 h-3"><use href="#chevron-right"></use></svg>
-     
-                    </span>
-              </summary>
-             <div class="group">
-              <ul class="  flex-col space-y-2.5 pl-5  !text-black child-hover:text-gray-500 group-open:mt-3  " >
-                <li><a href="#">Pricing Alt style</a></li>
-                <li><a href="#">Pricing</a></li>
-            
-              </ul>
-             </div>
-            </details></li>
-            <li><a href="#">Funds</a></li>
-          </ul>
-        </details>
-      </div>
-      <div >
-        <details class="group child-hover:text-gray-500">
-          <summary class="flex justify-between items-center font-medium cursor-pointer list-none mb-3">
-            <span> <a href="#">Casses</a></span>
-            <span class="transition duration-300 group-open:rotate-90">
-              <svg class=" w-3 h-3"><use href="#chevron-right"></use></svg>
- 
-                </span>
-          </summary>
-          <ul class="    flex-col space-y-2.5 pl-5 !text-black child-hover:text-gray-500 group-open:mb-3 " >
-            <li><a href="#">Casses</a></li>
-            <li><a href="#">Casses Alt style</a></li>
-            <li><a href="#">App Landing Page</a></li>
-            <li><a href="#">Cryptoagency</a></li>
-            <li><a href="#">ICO & IEO onepage Landing</a></li>
-            <li><a href="#">Cryptocurrency</a></li>
-          </ul>
-        </details>
-      </div>
-      <div >
-        <details class="group child-hover:text-gray-500">
-          <summary class="flex justify-between items-center font-medium cursor-pointer list-none mb-3">
-            <span> <a href="#">Demos</a></span>
-            <span class="transition duration-300 group-open:rotate-90">
-              <svg class=" w-3 h-3"><use href="#chevron-right"></use></svg>
- 
-                </span>
-          </summary>
-          <ul class="    flex-col space-y-2.5 pl-5 !text-black child-hover:text-gray-500 group-open:mb-3  " >
-            <li><a href="#">Main</a></li>
-            <li><a href="#">Blockchain Company</a></li>
-            <li><a href="#">App Landing Page</a></li>
-            <li><a href="#">Cryptoagency</a></li>
-            <li><a href="#">ICO & IEO onepage Landing</a></li>
-            <li><a href="#">Cryptocurrency</a></li>
-          </ul>
-        </details>
-      </div>
-      <div >
-        <details class="group child-hover:text-gray-500">
-          <summary class="flex justify-between items-center font-medium cursor-pointer list-none mb-3">
-            <span> <a href="#">Demos</a></span>
-            <span class="transition duration-300 group-open:rotate-90">
-              <svg class=" w-3 h-3"><use href="#chevron-right"></use></svg>
- 
-                </span>
-          </summary>
-          <ul class="    flex-col space-y-2.5 pl-5 !text-black child-hover:text-gray-500 group-open:mb-3  " >
-            <li><a href="#">Main</a></li>
-            <li><a href="#">Blockchain Company</a></li>
-            <li><a href="#">App Landing Page</a></li>
-            <li><a href="#">Cryptoagency</a></li>
-            <li><a href="#">ICO & IEO onepage Landing</a></li>
-            <li><a href="#">Cryptocurrency</a></li>
-          </ul>
-        </details>
-      </div>
-      <div >
-        <details class="group child-hover:text-gray-500">
-          <summary class="flex justify-between items-center font-medium cursor-pointer list-none mb-3">
-            <span> <a href="#">Demos</a></span>
-            <span class="transition duration-300 group-open:rotate-90">
-              <svg class=" w-3 h-3"><use href="#chevron-right"></use></svg>
- 
-                </span>
-          </summary>
-          <ul class="    flex-col space-y-2.5 pl-5 !text-black child-hover:text-gray-500  group-open:mb-3 " >
-            <li><a href="#">Main</a></li>
-            <li><a href="#">Blockchain Company</a></li>
-            <li><a href="#">App Landing Page</a></li>
-            <li><a href="#">Cryptoagency</a></li>
-            <li><a href="#">ICO & IEO onepage Landing</a></li>
-            <li><a href="#">Cryptocurrency</a></li>
-          </ul>
-        </details>
-      </div>
-      <div >
-        <details class=" child-hover:text-gray-500">
-          <summary class="flex justify-between items-center font-medium cursor-pointer list-none mb-3 ">
-            <span> <a href="#">Live Preview</a></span>
-            
-          </summary>
-        
-        </details>
-      </div>
-     
-         
-    
-    </div>
-  </div>
-  
-</div>
-    </div>
-  </div>
-</nav>
 
 
 
@@ -2128,29 +1998,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="w-96 h-96 bg-rose-200"></div>
 
 
 
@@ -2220,6 +2067,7 @@
 
 
 
+  
 
 
 
@@ -2255,7 +2103,10 @@
 
 
 
-
+<script src="scripts/jquery-3.7.1.js"></script>
+<script src="scripts/jquery.counterup.min.js"></script>
+<script src="scripts/jquery.numscroll.min.js"></script>
+<script src="scripts/jquery.waypoints.min.js"></script>
 
 
 
@@ -2264,6 +2115,15 @@
     <script
     type="text/javascript"
     src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+
+    <script>
+      jQuery(document).ready(function($) {
+          $('.counter').counterUp({
+              delay: 10,
+              time: 1000
+          });
+      });
+  </script>
 
   <script src="scripts/app.js"></script>
   </body>
