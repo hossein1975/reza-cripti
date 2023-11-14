@@ -31,7 +31,8 @@ module.exports = {
         
       },
       fontSize:{
-        "5xlp":"52px"
+        "5xlp":"52px",
+        "2xlk":"22px",
       }
       
     },
