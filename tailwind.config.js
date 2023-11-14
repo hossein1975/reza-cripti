@@ -29,6 +29,9 @@ module.exports = {
       spacing:{
         "18":"4.5rem",
         
+      },
+      fontSize:{
+        "5xlp":"52px"
       }
       
     },
@@ -40,7 +43,7 @@ module.exports = {
   },
 
   require("tw-elements/dist/plugin.cjs"),
-  require('flowbite/plugin')
+  require('flowbite/plugin'),
   ],
 }
 
