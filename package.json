@@ -10,6 +10,7 @@
     "counterup2": "^2.0.2",
     "esbuild": "^0.19.5",
     "flowbite": "^2.1.1",
+    "tailwindcss-animated": "^1.0.1",
     "tw-elements": "^1.0.0"
   }
 }

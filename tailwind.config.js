@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["public/**/*.{html,js}","./node_modules/tw-elements/dist/js/**/*.js", "./node_modules/flowbite/**/*.js"],
+  content: ["public/**/*.{html,js}","./node_modules/tw-elements/dist/js/**/*.js", "./node_modules/flowbite/**/*.js","./node_modules/tailwindcss-animated/**/*.js"],
  
  
   theme: {
@@ -45,6 +45,7 @@ module.exports = {
 
   require("tw-elements/dist/plugin.cjs"),
   require('flowbite/plugin'),
+  require("tailwindcss-animated"),
   ],
 }
 
