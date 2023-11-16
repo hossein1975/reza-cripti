@@ -1598,14 +1598,14 @@ input:checked + .toggle-bg {
   margin-bottom: 1rem;
 }
 
-.my-\[5px\] {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
 .my-40 {
   margin-top: 10rem;
   margin-bottom: 10rem;
+}
+
+.my-\[5px\] {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .-ml-\[1\.5rem\] {
@@ -5212,14 +5212,14 @@ input:checked + .toggle-bg {
   background-color: rgb(217 228 243 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-white:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-slate-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .hover\:fill-\[\#8b8b8b\]:hover {
