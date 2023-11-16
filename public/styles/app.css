@@ -7146,6 +7146,10 @@ input:checked + .toggle-bg {
     width: 28%;
   }
 
+  .xl\:w-2\/3 {
+    width: 66.666667%;
+  }
+
   .xl\:space-y-14 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(3.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -7181,6 +7185,11 @@ input:checked + .toggle-bg {
     line-height: 1;
   }
 
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
   .xl\:text-\[56px\] {
     font-size: 56px;
   }
@@ -7190,12 +7199,20 @@ input:checked + .toggle-bg {
     line-height: 1.75rem;
   }
 
+  .xl\:text-\[52px\] {
+    font-size: 52px;
+  }
+
   .xl\:leading-8 {
     line-height: 2rem;
   }
 
   .xl\:leading-\[60px\] {
     line-height: 60px;
+  }
+
+  .xl\:text-\[\] {
+    color: ;
   }
 }
 
